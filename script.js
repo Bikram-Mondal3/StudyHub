@@ -33,7 +33,7 @@ class GeminiProcessor {
 
         // API key should be securely stored in a backend service
         // For demonstration, we'll use a placeholder
-        this.apiKey = "1234";
+        this.apiKey = "AIzaSyCAk4mkNVUtb3Fqi1SoU_a4y6r7_sWhxxs";
         this.modelName = "gemini-2.0-flash";
         this.aiClient = null;
     }
