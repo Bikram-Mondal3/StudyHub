@@ -747,7 +747,7 @@ async function handleChatMessage() {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> ${response}
+                    <strong>Block Tutor:</strong> ${response}
                 </div>
             </div>
         `;
@@ -841,7 +841,7 @@ async function generateSummary() {
     chatMessages.innerHTML += `
         <div class="message assistant-message" id="typing-indicator">
             <div class="message-content">
-                <strong>Monica:</strong> Generating summary...
+                <strong>Block Tutor:</strong> Generating summary...
             </div>
         </div>
     `;
@@ -855,7 +855,7 @@ async function generateSummary() {
             chatMessages.innerHTML += `
                 <div class="message assistant-message">
                     <div class="message-content">
-                        <strong>Monica:</strong> No PDF content available to summarize.
+                        <strong>Block Tutor:</strong> No PDF content available to summarize.
                     </div>
                 </div>
             `;
@@ -887,7 +887,7 @@ async function generateSummary() {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> <strong>Summary:</strong><br>${summary}
+                    <strong>Block Tutor:</strong> <strong>Summary:</strong><br>${summary}
                 </div>
             </div>
         `;
@@ -907,7 +907,7 @@ async function generateSummary() {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> I encountered an error while generating the summary. Please try again.
+                    <strong>Block Tutor:</strong> I encountered an error while generating the summary. Please try again.
                 </div>
             </div>
         `;
@@ -922,7 +922,7 @@ async function extractKeyPoints() {
     chatMessages.innerHTML += `
         <div class="message assistant-message" id="typing-indicator">
             <div class="message-content">
-                <strong>Monica:</strong> Extracting key points...
+                <strong>Block Tutor:</strong> Extracting key points...
             </div>
         </div>
     `;
@@ -936,7 +936,7 @@ async function extractKeyPoints() {
             chatMessages.innerHTML += `
                 <div class="message assistant-message">
                     <div class="message-content">
-                        <strong>Monica:</strong> No PDF content available to extract key points from.
+                        <strong>Block Tutor:</strong> No PDF content available to extract key points from.
                     </div>
                 </div>
             `;
@@ -962,7 +962,7 @@ async function extractKeyPoints() {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> <strong>Key Points:</strong><br>${keyPoints}
+                    <strong>Block Tutor:</strong> <strong>Key Points:</strong><br>${keyPoints}
                 </div>
             </div>
         `;
@@ -982,7 +982,7 @@ async function extractKeyPoints() {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> I encountered an error while extracting key points. Please try again.
+                    <strong>Block Tutor:</strong> I encountered an error while extracting key points. Please try again.
                 </div>
             </div>
         `;
@@ -997,7 +997,7 @@ function searchPdfContent(searchTerm) {
     chatMessages.innerHTML += `
         <div class="message assistant-message" id="typing-indicator">
             <div class="message-content">
-                <strong>Monica:</strong> Searching for "${searchTerm}"...
+                <strong>Block Tutor:</strong> Searching for "${searchTerm}"...
             </div>
         </div>
     `;
@@ -1011,7 +1011,7 @@ function searchPdfContent(searchTerm) {
             chatMessages.innerHTML += `
                 <div class="message assistant-message">
                     <div class="message-content">
-                        <strong>Monica:</strong> No PDF content available to search.
+                        <strong>Block Tutor:</strong> No PDF content available to search.
                     </div>
                 </div>
             `;
@@ -1054,7 +1054,7 @@ function searchPdfContent(searchTerm) {
             chatMessages.innerHTML += `
                 <div class="message assistant-message">
                     <div class="message-content">
-                        <strong>Monica:</strong> ${resultsHTML}
+                        <strong>Block Tutor:</strong> ${resultsHTML}
                     </div>
                 </div>
             `;
@@ -1062,7 +1062,7 @@ function searchPdfContent(searchTerm) {
             chatMessages.innerHTML += `
                 <div class="message assistant-message">
                     <div class="message-content">
-                        <strong>Monica:</strong> No results found for "${searchTerm}" in the document.
+                        <strong>Block Tutor:</strong> No results found for "${searchTerm}" in the document.
                     </div>
                 </div>
             `;
@@ -1083,7 +1083,7 @@ function searchPdfContent(searchTerm) {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> I encountered an error while searching the document. Please try again.
+                    <strong>Block Tutor:</strong> I encountered an error while searching the document. Please try again.
                 </div>
             </div>
         `;
@@ -1099,7 +1099,7 @@ async function generateMindMap() {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> Mind map feature is not enabled. Please enable it in the settings before uploading your PDF.
+                    <strong>Block Tutor:</strong> Mind map feature is not enabled. Please enable it in the settings before uploading your PDF.
                 </div>
             </div>
         `;
@@ -1110,7 +1110,7 @@ async function generateMindMap() {
     chatMessages.innerHTML += `
         <div class="message assistant-message" id="typing-indicator">
             <div class="message-content">
-                <strong>Monica:</strong> Generating mind map...
+                <strong>Block Tutor:</strong> Generating mind map...
             </div>
         </div>
     `;
@@ -1124,7 +1124,7 @@ async function generateMindMap() {
             chatMessages.innerHTML += `
                 <div class="message assistant-message">
                     <div class="message-content">
-                        <strong>Monica:</strong> No PDF content available to generate a mind map from.
+                        <strong>Block Tutor:</strong> No PDF content available to generate a mind map from.
                     </div>
                 </div>
             `;
@@ -1151,7 +1151,7 @@ async function generateMindMap() {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> <strong>Mind Map:</strong><br><pre>${mindMapStructure}</pre>
+                    <strong>Block Tutor:</strong> <strong>Mind Map:</strong><br><pre>${mindMapStructure}</pre>
                 </div>
             </div>
         `;
@@ -1171,7 +1171,7 @@ async function generateMindMap() {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> I encountered an error while generating the mind map. Please try again.
+                    <strong>Block Tutor:</strong> I encountered an error while generating the mind map. Please try again.
                 </div>
             </div>
         `;
@@ -1187,7 +1187,7 @@ async function translateContent(targetLanguage) {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> Translation feature is not enabled. Please enable it in the settings before uploading your PDF.
+                    <strong>Block Tutor:</strong> Translation feature is not enabled. Please enable it in the settings before uploading your PDF.
                 </div>
             </div>
         `;
@@ -1198,7 +1198,7 @@ async function translateContent(targetLanguage) {
     chatMessages.innerHTML += `
         <div class="message assistant-message" id="typing-indicator">
             <div class="message-content">
-                <strong>Monica:</strong> Translating content to ${targetLanguage}...
+                <strong>Block Tutor:</strong> Translating content to ${targetLanguage}...
             </div>
         </div>
     `;
@@ -1212,7 +1212,7 @@ async function translateContent(targetLanguage) {
             chatMessages.innerHTML += `
                 <div class="message assistant-message">
                     <div class="message-content">
-                        <strong>Monica:</strong> No PDF content available to translate.
+                        <strong>Block Tutor:</strong> No PDF content available to translate.
                     </div>
                 </div>
             `;
@@ -1241,7 +1241,7 @@ async function translateContent(targetLanguage) {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> <strong>Translation to ${targetLanguage} (sample):</strong><br>${translatedContent}<br><br>
+                    <strong>Block Tutor:</strong> <strong>Translation to ${targetLanguage} (sample):</strong><br>${translatedContent}<br><br>
                     <em>Note: This is just a sample of the document. Ask specific questions about sections you want translated.</em>
                 </div>
             </div>
@@ -1262,7 +1262,7 @@ async function translateContent(targetLanguage) {
         chatMessages.innerHTML += `
             <div class="message assistant-message">
                 <div class="message-content">
-                    <strong>Monica:</strong> I encountered an error while translating the content. Please try again.
+                    <strong>Block Tutor:</strong> I encountered an error while translating the content. Please try again.
                 </div>
             </div>
         `;
